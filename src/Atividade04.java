@@ -18,8 +18,10 @@ public class Atividade04 {
             }
 
             int soma = 0;
-            for (int i = 0; i < numeros.length; i++) {
+            int i = 0;
+            while (i < numeros.length) {
                 soma += numeros[i];
+                i++;
             }
             double media = soma / (double) numeros.length;
 
